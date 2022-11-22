@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24A94B829265C39000BCF5A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A94B729265C39000BCF5A /* ModelData.swift */; };
 		F27C741129263D4B00D202D6 /* AuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27C741029263D4B00D202D6 /* AuthApp.swift */; };
 		F27C741329263D4B00D202D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27C741229263D4B00D202D6 /* ContentView.swift */; };
 		F27C741529263D4C00D202D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27C741429263D4C00D202D6 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F24A94B729265C39000BCF5A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		F27C740D29263D4B00D202D6 /* Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27C741029263D4B00D202D6 /* AuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApp.swift; sourceTree = "<group>"; };
 		F27C741229263D4B00D202D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				F27C741029263D4B00D202D6 /* AuthApp.swift */,
 				F27C741229263D4B00D202D6 /* ContentView.swift */,
+				F24A94B729265C39000BCF5A /* ModelData.swift */,
 				F27C741429263D4C00D202D6 /* Assets.xcassets */,
 				F27C741629263D4C00D202D6 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				F27C741329263D4B00D202D6 /* ContentView.swift in Sources */,
 				F27C741129263D4B00D202D6 /* AuthApp.swift in Sources */,
+				F24A94B829265C39000BCF5A /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

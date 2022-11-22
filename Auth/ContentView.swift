@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+
 //  Auth
 //
 //  Created by Ian Nalyanya on 17/11/2022.
@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var auth: Authenticated
+  
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if(auth.isAuthenticated){
+            Text("Authenticated")
+        }else{
+            Text("Not Authencticated")
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(Authenticated())
     }
 }

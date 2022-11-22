@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct AuthApp: App {
+    
+    @StateObject private var auth = Authenticated()
+
+   
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(auth)
         }
     }
 }
