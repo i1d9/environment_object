@@ -13,9 +13,25 @@ struct ContentView: View {
     
     var body: some View {
         if(auth.isAuthenticated){
-            Text("Authenticated")
+            VStack {
+                Text(" Authencticated")
+                Button(action: {
+                    auth.isAuthenticated = false
+                }){
+                    Text("Log out")
+               
+                }
+            }
         }else{
-            Text("Not Authencticated")
+            VStack {
+                Text("Not Authencticated")
+                Button(action: {
+                    auth.isAuthenticated = true
+                }){
+                    Text("Login")
+               
+                }
+            }
         }
     }
 }
